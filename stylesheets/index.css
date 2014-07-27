@@ -1,0 +1,41 @@
+#index_body {
+	position: relative;
+	width:1000px;
+}
+
+#test
+{
+	position: relative;
+	left:0px;
+	top:0px;
+	background-color:black;
+	height:100px;
+	width:100px;
+}
+
+#pause
+{
+	position: absolute;
+	left:600px;
+	top:30px;
+	background-color:black;
+	color:white;
+	text-indent:10px;
+	font-size:36px;
+	height:40px;
+	width:150px;
+}
+
+#count
+{
+	position: absolute;
+	left:600px;
+	top:130px;
+	background-color:black;
+	color:white;
+	
+	text-indent:20px;
+	font-size:36px;
+	height:40px;
+	width:150px;
+}
