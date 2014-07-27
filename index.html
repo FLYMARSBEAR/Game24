@@ -1,30 +1,25 @@
 <!DOCTYPE html>
+<?xml version="1.0" standalone="no"?>
+
 <html>
+<head>
+<meta charset="UTF-8">
+<title>Rolling Ball</title>
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Game24 : This is an interesting game" />
+<body id="index_body"> 
+	
+    <!-- Create the SVG pane. --> 
+    <svg xmlns="http://www.w3.org/2000/svg" height="90%" width="60%" id="back"></svg>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <div id="pause">PAUSE</div>
+    <div id="count">0</div>
+    <div id="wave_dir">DOWN</div>
+    <div id="next_wave_dir">DOWN</div>
+</body> 
 
-    <title>Game24</title>
-  </head>
-
-  <body>
-      <h1> fuck </h1>
-
-  <canvas id="myCanvas">your browser does not support the canvas tag </canvas>
-
-  <script type="text/javascript">
-
-    var canvas=document.getElementById('myCanvas');
-    var ctx=canvas.getContext('2d');
-    ctx.fillStyle='#FF0000';
-    ctx.fillRect(0,0,80,100);
-
-</script>
-    
-
-  </body>
 </html>
