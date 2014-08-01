@@ -126,6 +126,7 @@ function render(){
 function beat(){
 	if(isStart==false){
 		isStart=true;
+		then = Date.now();
 	}
 	if(isStart==true 
 		&&event.targetTouches[0].pageY>320&&event.targetTouches[0].pageY<400){
